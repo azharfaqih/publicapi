@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/azharfaq/staging2.bukuanak.id/
+    - /bin/cp -R images $DEPLOYPATH
